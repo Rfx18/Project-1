@@ -1,0 +1,178 @@
+body {
+  width: 1440px;
+  font-family: "Spartan", sans-serif;
+  margin-bottom: 0;
+}
+
+.main {
+  padding: 70px 120px 0px 172px;
+}
+
+/* -----------backgroung-pattern-top-------------*/
+
+.pattern-top {
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  margin: 0;
+}
+
+.pattern-bottom {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+
+  margin: 0;
+}
+
+/* -----------upper-container-------------------- */
+.top-left {
+  color: #502050;
+  width: 28%;
+  text-align: left;
+  font-size: larger;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.para {
+  color: #502050;
+  font-size: 12px;
+  width: 32%;
+  line-height: 2;
+  text-align: left;
+  font-weight: 500;
+}
+
+.rating-1 {
+  background-color: #f7f2f7;
+  display: flex;
+  margin: 1.5rem auto;
+  padding: 8px 30px;
+  border-radius: 6px;
+}
+
+.star-heading1 {
+  padding: 5px 1rem 5px 2rem;
+  color: #502050;
+  font-weight: 700;
+}
+
+.rating-2 {
+  background-color: #f7f2f7;
+  display: flex;
+  position: relative;
+  left: 3rem;
+  margin: 1.5rem auto;
+  padding: 8px 30px;
+  border-radius: 6px;
+}
+
+.star-heading2 {
+  padding: 5px 1rem 5px 2rem;
+  color: #502050;
+  font-weight: 700;
+}
+
+.rating-3 {
+  background-color: #f7f2f7;
+  display: flex;
+  position: relative;
+  left: 6rem;
+  margin: 1.5rem auto;
+  padding: 8px 30px;
+  border-radius: 6px;
+}
+
+.star-heading3 {
+  padding: 5px 1rem 5px 2rem;
+  color: #502050;
+  font-weight: 700;
+}
+
+.stars {
+  padding: 5px;
+}
+
+.rating-div {
+  position: absolute;
+  right: 17.5rem;
+  top: 7rem;
+  width: 30rem;
+}
+
+.bottom-main {
+  display: flex;
+  width: 80rem;
+}
+
+.review-1 {
+  background-color: #502050;
+  border-radius: 8px;
+  width: 28%;
+  height: 20%;
+  color: #f7f2f7;
+  margin: 3rem 3rem 0 0;
+}
+
+.review-2 {
+  background-color: #502050;
+  border-radius: 8px;
+  width: 28%;
+  height: 20%;
+  color: #f7f2f7;
+  margin: 3rem 0 0 0;
+  position: relative;
+  top: 20px;
+}
+
+.review-3 {
+  background-color: #502050;
+  border-radius: 8px;
+  width: 28%;
+  height: 20%;
+  color: #f7f2f7;
+  margin: 3rem 0 0 3rem;
+  position: relative;
+  top: 40px;
+}
+
+.image {
+  float: left;
+  width: 40px;
+  border-radius: 50%;
+  padding: 2rem 2rem;
+}
+
+h5 {
+  padding: 35px 2px 2px 6rem;
+  margin: 0;
+}
+
+span {
+  color: #ee68a4;
+  margin: 0;
+  font-size: small;
+  padding-left: 0;
+}
+
+.review-des {
+  font-size: smaller;
+  font-weight: 500;
+  padding: 10px 30px 25px 30px;
+  line-height: 2;
+  margin: 0;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
